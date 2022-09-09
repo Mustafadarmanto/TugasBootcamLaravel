@@ -1,0 +1,12 @@
+<?php
+ $arr = array(1,2,3,4,5);
+ $Jmlh = NULL;
+
+for($i=0; $i<=4; $i++)
+{
+  $Jmlh+= $arr[$i];
+}
+
+print_r($Jmlh);
+
+?>
